@@ -1,0 +1,43 @@
+﻿<!--This is project.html-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My sample project</title>
+	<style type="text/css">.header {margin-bottom: 100px;} .box {margin-top: 20px; padding: 20px;border: 1px solid black; width: 300px; height: 100px;} .blue {background-color: blue;} .yellow {background-color: yellow;} .red {background-color: red;} .brown {background-color : brown} .purple { background-color : purple}</style>
+    </head>
+    <body>
+	<h1>My sample project</h1>
+	<p id = "output"></p>
+	<span class = "span"></span>
+	<!--<div ng-app = "">-->
+	     <!--<input type = "text" ng-model = "data.message" class = "input">-->
+	     <!--<h2>{{data.message}}</h2>-->
+	<!--</div>-->
+	<span id = "span"></span>
+	<span id ="newSpan"></span>
+	<span class = "span"></span>
+	<ul id = "parent">
+	    <li>The First Child</li>
+	    <li>The second Child</li>
+	    <li>The third Child</li>
+	</ul>
+	<!--<div ng-app = "">-->
+	    <!--<input type = "text" placeholder = "your Name" ng-model = "data.name">-->
+	    <!--<input type = "text" placeholder = "your job" ng-model = "data.job">-->
+	    <!--<h2>Your name is : {{data.name}}, your job is: {{data.job}}</h2>-->
+	<!--</div>-->
+	<!--<div ng-app="">-->
+		<!--<input type ="text" placeholder = "enter a colour name" ng-model = "data.colour">-->
+		<!--<div class = "box {{data.colour}}">-->
+			i have got a tag now give me a backgrund colour
+		<!--</div>-->
+	<!--</div>-->
+	<div ng-app="myApp" ng-controller="myCtrl">
+	First Name : <input type="text" ng-model="firstName"><br>
+	Last Name: <input type="text" ng-model="lastName"><br>
+	<br>
+	</div>
+    </body>
+    <script data-main = 'scripts/main' src = 'scripts/require.js'></script>
+</html>
